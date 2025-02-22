@@ -1,5 +1,5 @@
 .Resume {
   display: grid;
-  max-width: 100vw;
+  max-width: 1280px;
   grid-template-columns: 2fr 3fr;
 }

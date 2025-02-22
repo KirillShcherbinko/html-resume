@@ -7,7 +7,9 @@ interface Props {
 }
 
 export default function Column({color, children}: Props) {
-  return <div style={{ backgroundColor: color }} className={Style.Column}>
+  return <div 
+      style={{ backgroundColor: color }}
+      className={Style.Column}>
     {children}
   </div>
 }
