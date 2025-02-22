@@ -2,5 +2,11 @@
   "profile": {
     "name": "Кирилл Щербинко",
     "position": "Разработчик" 
+  },
+  "contact": {
+    "title": "Контакты",
+    "mail": "shcherbinko.k.d@edu.mirea.ru",
+    "phone": "+7-999-888-77-66",
+    "location": "Москва, Российская Федерация"
   }
 }

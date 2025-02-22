@@ -4,8 +4,8 @@ import myPhoto from '../../../assets/my-photo.jpg';
 
 import text from '../../../locales/ru.json';
 
-import Author from '../Author/Author';
-import Position from '../Position/Postion';
+import Author from './Author/Author';
+import Position from './Position/Postion';
 import Photo from '../Photo/Photo';
 
 
