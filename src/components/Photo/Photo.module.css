@@ -1,0 +1,5 @@
+.Photo {
+  width: 50%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
