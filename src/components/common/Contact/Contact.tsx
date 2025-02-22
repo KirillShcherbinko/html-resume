@@ -1,4 +1,4 @@
-import Style from './Contact.module.css';
+import '../../../styles/list.css';
 
 import text from '../../../locales/ru.json';
 
@@ -7,7 +7,7 @@ import phoneImage from '../../../assets/phone-icon.png';
 import locationImage from '../../../assets/location-icon.png';
 
 import Title from '../../ui/Title/Title';
-import ContactItem from './ContactItem/Contactitem';
+import Label from '../../ui/Label/Label';
 
 const imageMailAlt = 'Иконка Почты';
 const imagePhoneAlt = 'Иконка Почты';
@@ -16,19 +16,19 @@ const imageLocationAlt = 'Иконка Почты';
 
 export default function Contact() {
   return (
-    <div className={Style.Contact}>
+    <div className="list">
       <Title>{text.contact.title}</Title>
-      <ContactItem
+      <Label
         imageSrc={mailImage}
         imageAlt={imageMailAlt}
         text={text.contact.mail}
       />
-      <ContactItem
+      <Label
         imageSrc={phoneImage}
         imageAlt={imagePhoneAlt}
         text={text.contact.phone}
       />
-      <ContactItem
+      <Label
         imageSrc={locationImage}
         imageAlt={imageLocationAlt}
         text={text.contact.location}

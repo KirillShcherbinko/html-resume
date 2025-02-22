@@ -1,9 +1,9 @@
-.Contact {
+.list {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   max-width: 100%;
   gap: 20px;
-  margin-top: 10%;
+  margin-top: 15%;
 }

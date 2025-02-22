@@ -8,5 +8,9 @@
     "mail": "shcherbinko.k.d@edu.mirea.ru",
     "phone": "+7-999-888-77-66",
     "location": "Москва, Российская Федерация"
+  },
+  "portfolio": {
+    "title": "Портфолио",
+    "github": "https://github.com/KirillShcherbinko"
   }
 }

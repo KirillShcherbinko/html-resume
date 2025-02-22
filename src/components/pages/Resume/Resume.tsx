@@ -2,6 +2,7 @@ import Style from "../Resume/Resume.module.css";
 import Column from "../../ui/Column/Column";
 import Profile from "../../common/Profile/Profile";
 import Contact from "../../common/Contact/Contact";
+import Portfolio from "../../common/Portfolio/Portfolio";
 
 
 export default function Resume() {
@@ -9,6 +10,7 @@ export default function Resume() {
     <Column color="#CBD0CC">
       <Profile/>
       <Contact/>
+      <Portfolio/>
     </Column>
     <Column color="white">
       <></>
