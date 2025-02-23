@@ -17,7 +17,7 @@
     ],
     "texts": [
       "shcherbinko.k.d@edu.mirea.ru",
-      "+7-999-888-77-66",
+      "+7-903-833-76-71",
       "Москва, Россия"
     ]
   },
@@ -61,7 +61,14 @@
   "stack": {
     "title": "Технологии",
     "texts": [
-      "HTML5, CSS3, JavaScript, TypeScript, Webpack, Vite, React.js, Node.js, Express.js, Jest.js, MongoDB, Git, Bash, Docker"
+      "HTML5, CSS3, JavaScript, TypeScript, Webpack, Vite, React.js, Vue.js, Node.js, Express.js, Jest.js, MongoDB, Git, Bash, Docker"
+    ]
+  },
+  "experience": {
+    "title": "Опыт",
+    "texts": [
+      "Проходил ознакомительную практику в РТУ МИРЭА, в рамках которой изучал методы и алгоритмы моделирования информационных систем и познакомился семейством нотаций IDEF и нотацией UML",
+      "Защитил курсовую работу по теме \"Настройка и администрирование системы управления спортивными событиями с автоматической обработкой данных участников\", в рамках которой познакомлся с платформой для контейнеризации Docker и разработал приложение, используя стек MEVN (MongoDb, Express.js, Vue.js, Node.js)"
     ]
   }
 }

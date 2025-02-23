@@ -6,6 +6,7 @@ import Portfolio from "../../common/Portfolio/Portfolio";
 import Interest from "../../common/Interest/Interest";
 import Education from "../../common/Education/Education";
 import Stack from "../../common/Stack/Stack";
+import Extras from "../../common/Experience/Experience";
 
 
 export default function Resume() {
@@ -19,6 +20,7 @@ export default function Resume() {
     <Wrapper color="#D3D3D3">
       <Education/>
       <Stack/>
+      <Extras/>
     </Wrapper>
   </div>
 }
