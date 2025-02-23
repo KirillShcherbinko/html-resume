@@ -9,7 +9,8 @@ interface Props {
 export default function Wrapper({color, children}: Props) {
   return <div 
       style={{ backgroundColor: color }}
-      className={Style.Wrapper}>
+      className={Style.Wrapper}
+    >
     {children}
   </div>
 }

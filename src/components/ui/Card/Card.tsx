@@ -1,27 +1,21 @@
 import Style from './Card.module.css';
-import Image from '../Image/Image';
-import Text from '../Text/Text';
+import { ReactNode } from 'react';
 
 type FlexDirection = 'row' | 'column' | 'row-reverse' | 'column-reverse';
 
 interface Props {
-  imageSrc: string,
-  imageAlt: string,
-  text: string,
-  direction: FlexDirection
+  children: ReactNode,
+  direction: FlexDirection,
+  border: string
 }
 
-export default function Card({imageSrc, imageAlt, text, direction}: Props) {
+export default function Card({children, direction, border}: Props) {
   return (
     <div 
       className={Style.Card}
-      style={{ flexDirection: direction }}
+      style={{ flexDirection: direction, border: border }}
     >
-      <Image
-        imageSrc={imageSrc}
-        imageAlt={imageAlt}
-      />
-      <Text>{text}</Text>
+      {children}
     </div>
   )
 }

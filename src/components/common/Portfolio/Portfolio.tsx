@@ -1,14 +1,26 @@
 import data from '../../../locales/ru.json';
-import List from '../../ui/List/List';
 
-export default function Portfolio() {
+import List from '../../ui/List/List';
+import Image from '../../ui/Image/Image';
+import Text from '../../ui/Text/Text';
+import { Fragment } from 'react';
+
+export default function Contact() {
   const portfolioData = data.portfolio;
   return (
     <List
       title={portfolioData.title}
-      images={portfolioData.images}
-      alts={portfolioData.alts}
-      texts={portfolioData.texts}
-    />
+      border='none'
+    >
+      {portfolioData.texts.map((text, index) => (
+        <Fragment key={index}>
+          <Image
+            imageSrc={`/assets/${portfolioData.images[index]}`}
+            imageAlt={portfolioData.alts[index]}
+          />
+          <Text>{text}</Text>
+        </Fragment>
+      ))}
+    </List>
   )
 }

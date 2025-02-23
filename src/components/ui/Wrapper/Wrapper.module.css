@@ -6,3 +6,39 @@
   gap: 40px;
   padding: 96px;
 }
+
+@media screen and (max-width: 1280px) {
+  .Wrapper {
+    padding: calc((96px - (1280px - 100vw) * 0.1875)/2) calc(96px - (1280px - 100vw) * 0.1875);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Wrapper {
+    padding: calc((48px - (1024px - 100vw) * 0.09375)/2) calc(48px - (1024px - 100vw) * 0.09375);
+    gap: calc(20px - (1024px - 100vw) * 0.078125);
+  }
+
+  .Wrapper:first-child {
+    padding-top: calc(48px - (1024px - 100vw) * 0.09375);
+  }
+
+  .Wrapper:last-child {
+    padding-bottom: calc(48px - (1024px - 100vw) * 0.09375);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Wrapper {
+    padding: 12px 24px;
+    gap: 20px;
+  }
+
+  .Wrapper:first-child {
+    padding-top: 24px;
+  }
+
+  .Wrapper:last-child {
+    padding-bottom: 24px;
+  }
+}

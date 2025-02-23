@@ -3,3 +3,10 @@
   max-width: 1280px;
   grid-template-columns: 2fr 3fr;
 }
+
+@media screen and (max-width: 768px) {
+  .Resume {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}

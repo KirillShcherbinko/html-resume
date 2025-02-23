@@ -5,3 +5,15 @@
   color: black;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .Text {
+    font-size: calc(18px - (1024px - 100vw) * 8/599);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Text {
+    font-size: 10px;
+  }
+}
