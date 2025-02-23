@@ -1,12 +1,12 @@
 import Style from './Profile.module.css';
 
-import myPhoto from '../../../assets/my-photo.jpg';
+import myPhoto from '/assets/my-photo.jpg';
 
 import text from '../../../locales/ru.json';
 
 import Author from './Author/Author';
 import Position from './Position/Postion';
-import Photo from '../Photo/Photo';
+import Photo from './Photo/Photo';
 
 
 export default function Profile(){

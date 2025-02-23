@@ -5,12 +5,35 @@
   },
   "contact": {
     "title": "Контакты",
-    "mail": "shcherbinko.k.d@edu.mirea.ru",
-    "phone": "+7-999-888-77-66",
-    "location": "Москва, Российская Федерация"
+    "images": [
+      "mail-icon.png",
+      "phone-icon.png",
+      "location-icon.png"
+    ],
+    "alts": [
+      "Иконка почты",
+      "Икнока номера телефона",
+      "Иконка местоположения"
+    ],
+    "texts": [
+      "shcherbinko.k.d@edu.mirea.ru",
+      "+7-999-888-77-66",
+      "Москва, Россия"
+    ]
   },
   "portfolio": {
     "title": "Портфолио",
-    "github": "https://github.com/KirillShcherbinko"
+    "images": ["../../../assets/browser-icon.png"],
+    "alts": ["Иконка браузера"],
+    "texts": ["https://github.com/KirillShcherbinko"]
+  },
+  "interests": {
+    "title": "Интересы",
+    "texts": [
+      "Программирование",
+      "Шахматы",
+      "Смотреть сериалы",
+      "Пить кофе"
+    ]
   }
 }

@@ -1,23 +1,14 @@
-import '../../../styles/list.css';
-
-import text from '../../../locales/ru.json';
-
-import browserImage from '../../../assets/browser-icon.png';
-
-import Title from '../../ui/Title/Title';
-import Label from '../../ui/Label/Label';
+import data from '../../../locales/ru.json';
+import List from '../../ui/List/List';
 
 export default function Portfolio() {
-  const imageBrowserAlt = 'Иконка браузера';
-
+  const portfolioData = data.portfolio;
   return (
-    <div className="list">
-      <Title>{text.portfolio.title}</Title>
-      <Label
-        imageSrc={browserImage}
-        imageAlt={imageBrowserAlt}
-        text={text.portfolio.github}
-      />
-    </div>
+    <List
+      title={portfolioData.title}
+      images={portfolioData.images}
+      alts={portfolioData.alts}
+      texts={portfolioData.texts}
+    />
   )
 }

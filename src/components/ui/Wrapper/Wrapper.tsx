@@ -1,4 +1,4 @@
-import Style from './Column.module.css';
+import Style from './Wrapper.module.css';
 import { ReactNode } from 'react';
 
 interface Props {
@@ -6,10 +6,10 @@ interface Props {
   children: ReactNode
 }
 
-export default function Column({color, children}: Props) {
+export default function Wrapper({color, children}: Props) {
   return <div 
       style={{ backgroundColor: color }}
-      className={Style.Column}>
+      className={Style.Wrapper}>
     {children}
   </div>
 }
