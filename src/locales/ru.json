@@ -23,17 +23,29 @@
   },
   "portfolio": {
     "title": "Портфолио",
-    "images": ["../../../assets/browser-icon.png"],
+    "images": ["browser-icon.png"],
     "alts": ["Иконка браузера"],
     "texts": ["https://github.com/KirillShcherbinko"]
   },
-  "interests": {
+  "interest": {
     "title": "Интересы",
+    "images": [
+      "code-icon.png",
+      "chess-icon.png",
+      "series-icon.png",
+      "coffee-icon.png"
+    ],
+    "alts": [
+      "Иконка кода",
+      "Икнока шахмат",
+      "Иконка сериалов",
+      "Иконка кофе"
+    ],
     "texts": [
-      "Программирование",
+      "Код",
       "Шахматы",
-      "Смотреть сериалы",
-      "Пить кофе"
+      "Сериалы",
+      "Кофе"
     ]
   }
 }

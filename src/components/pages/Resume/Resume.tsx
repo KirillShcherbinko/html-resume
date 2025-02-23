@@ -3,6 +3,7 @@ import Wrapper from "../../ui/Wrapper/Wrapper";
 import Profile from "../../common/Profile/Profile";
 import Contact from "../../common/Contact/Contact";
 import Portfolio from "../../common/Portfolio/Portfolio";
+import Interest from "../../common/Interest/Interest";
 
 
 export default function Resume() {
@@ -11,6 +12,7 @@ export default function Resume() {
       <Profile/>
       <Contact/>
       <Portfolio/>
+      <Interest/>
     </Wrapper>
     <Wrapper color="white">
       <></>

@@ -2,7 +2,7 @@ import Style from './Profile.module.css';
 
 import myPhoto from '/assets/my-photo.jpg';
 
-import text from '../../../locales/ru.json';
+import data from '../../../locales/ru.json';
 
 import Author from './Author/Author';
 import Position from './Position/Postion';
@@ -15,9 +15,8 @@ export default function Profile(){
   return (
     <div className={Style.Profile}>
       <Photo imageSrc={myPhoto} imageAlt={myAlt}></Photo>
-      <Author>{text.profile.name}</Author>
-      <Position>{text.profile.position}</Position>
+      <Author>{data.profile.name}</Author>
+      <Position>{data.profile.position}</Position>
     </div>
   )
 }
-
