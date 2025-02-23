@@ -4,6 +4,7 @@ import Profile from "../../common/Profile/Profile";
 import Contact from "../../common/Contact/Contact";
 import Portfolio from "../../common/Portfolio/Portfolio";
 import Interest from "../../common/Interest/Interest";
+import Education from "../../common/Education/Education";
 
 
 export default function Resume() {
@@ -15,7 +16,7 @@ export default function Resume() {
       <Interest/>
     </Wrapper>
     <Wrapper color="white">
-      <></>
+      <Education/>
     </Wrapper>
   </div>
 }
