@@ -1,0 +1,7 @@
+.Enum {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+  max-width: 100%;
+  text-align: center;
+}

@@ -60,9 +60,7 @@
   },
   "stack": {
     "title": "Технологии",
-    "texts": [
-      "HTML5, CSS3, JavaScript, TypeScript, Webpack, Vite, React.js, Vue.js, Node.js, Express.js, Jest.js, MongoDB, Git, Bash, Docker"
-    ]
+    "text": "HTML5 CSS3 JavaScript TypeScript Webpack Vite React.js Vue.js Node.js Express.js Jest.js MongoDB Git Bash Docker"
   },
   "experience": {
     "title": "Опыт",
