@@ -1,6 +1,6 @@
 .Title {
   grid-column: 1 / -1;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 180%;
   font-family: "Inter-SemiBold", "Arial", sans-serif;
   color: black;
@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 1024px) {
   .Title {
-    font-size: calc(20px - (1024px - 100vw) * 8/599);
+    font-size: calc(24px - (1024px - 100vw) * 6/599);
   }
 }
 
 @media screen and (max-width: 425px) {
   .Title {
-    font-size: 12px;
+    font-size: 18px;
   }
 }

@@ -1,5 +1,5 @@
 .Text {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 180%;
   font-family: "Inter-Regular", "Arial", sans-serif;
   color: black;
@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 1024px) {
   .Text {
-    font-size: calc(18px - (1024px - 100vw) * 8/599);
+    font-size: calc(22px - (1024px - 100vw) * 6/599);
   }
 }
 
 @media screen and (max-width: 425px) {
   .Text {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
