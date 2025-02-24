@@ -1,5 +1,7 @@
 import data from '../../../locales/ru.json';
-import Article from '../../ui/Article/Article';
+
+import '../../../styles/Article.css';
+
 import Title from '../../ui/Title/Title';
 import Text from '../../ui/Text/Text';
 
@@ -7,11 +9,11 @@ import Text from '../../ui/Text/Text';
 export default function Education() {
   const educationData = data.education;
   return (
-    <Article>
+    <article className='Article'>
       <Title>{educationData.title}</Title>
       {educationData.texts.map((text, index) => (
         <Text key={index}>{text}</Text>
       ))}
-    </Article>
+    </article>
   )
 }

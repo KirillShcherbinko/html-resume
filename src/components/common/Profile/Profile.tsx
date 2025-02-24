@@ -1,12 +1,12 @@
 import Style from './Profile.module.css';
 
-import myPhoto from '/assets/my-photo.jpg';
+import myAvatar from '/assets/my-avatar.jpg';
 
 import data from '../../../locales/ru.json';
 
-import Author from './Author/Author';
-import Position from './Position/Postion';
-import Photo from './Photo/Photo';
+import Heading from '../../ui/Heading/Heading';
+import Subheading from '../../ui/Subheading/Subheading';
+import Avatar from '../../ui/Avatar/Avatar';
 
 
 export default function Profile(){
@@ -14,9 +14,9 @@ export default function Profile(){
 
   return (
     <div className={Style.Profile}>
-      <Photo imageSrc={myPhoto} imageAlt={myAlt}></Photo>
-      <Author>{data.profile.name}</Author>
-      <Position>{data.profile.position}</Position>
+      <Avatar imageSrc={myAvatar} imageAlt={myAlt}></Avatar>
+      <Heading>{data.profile.heading}</Heading>
+      <Subheading>{data.profile.subheading}</Subheading>
     </div>
   )
 }

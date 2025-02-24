@@ -1,5 +1,6 @@
-.Position {
-  font-size: 28px;
+.Heading {
+  max-width: 100%;
+  font-size: 32px;
   line-height: 180%;
   font-family: "Inter", "Arial", sans-serif;
   color: black;
