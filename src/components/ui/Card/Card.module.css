@@ -5,6 +5,18 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .Card {
+    gap: calc(20px - (768px - 100vw) * 3/112);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Card {
+    gap: 8px;
+  }
+}
+
 .BorderCard {
   border: 2px solid #C0C0C0;
   border-radius: 20px;

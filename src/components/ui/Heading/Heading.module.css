@@ -6,3 +6,15 @@
   color: black;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .Heading {
+    font-size: calc(32px - (1024px - 100vw) * 14/599);
+  }
+} 
+
+@media screen and (max-width: 425px) {
+  .Heading {
+    font-size: 18px;
+  }
+}

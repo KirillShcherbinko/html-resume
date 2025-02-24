@@ -1,3 +1,15 @@
 .Image {
-  width: 25px;
+  max-width: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .Image {
+    max-width: calc(25px - (425px - 100vw) * 2/21);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Image {
+    max-width: 15px;
+  }
 }
