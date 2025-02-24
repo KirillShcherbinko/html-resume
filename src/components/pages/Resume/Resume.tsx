@@ -6,7 +6,7 @@ import Portfolio from "../../common/Portfolio/Portfolio";
 import Interest from "../../common/Interest/Interest";
 import Education from "../../common/Education/Education";
 import Stack from "../../common/Stack/Stack";
-import Extras from "../../common/Experience/Experience";
+import Projects from "../../common/Projects/Projects";
 
 
 export default function Resume() {
@@ -15,12 +15,12 @@ export default function Resume() {
       <Profile/>
       <Contact/>
       <Portfolio/>
+      <Stack/>
       <Interest/>
     </Wrapper>
     <Wrapper color="#D3D3D3">
       <Education/>
-      <Stack/>
-      <Extras/>
+      <Projects/>
     </Wrapper>
   </div>
 }

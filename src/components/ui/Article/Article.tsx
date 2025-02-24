@@ -1,20 +1,15 @@
 import Style from './Article.module.css';
 
-import Text from '../Text/Text';
-import Title from '../Title/Title';
+import { ReactNode } from 'react';
 
 interface Props {
-  title: string,
-  texts: string[]
+  children: ReactNode
 }
 
-export default function Article({title, texts}: Props) {
+export default function Article({children}: Props) {
   return (
     <article className={Style.Article}>
-      <Title>{title}</Title>
-      {texts.map((text, index) => (
-        <Text key={index}>{text}</Text>
-      ))}
+      {children}
     </article>
   )
 }
